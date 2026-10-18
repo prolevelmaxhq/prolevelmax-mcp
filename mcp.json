@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prolevelmax": {
+      "url": "https://prolevelmax.com/mcp",
+      "headers": { "Authorization": "Bearer sk_procli_..." }
+    }
+  }
+}

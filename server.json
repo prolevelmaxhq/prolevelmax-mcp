@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.prolevelmax/prolevelmax",
+  "title": "ProLevelMax",
+  "description": "Real-time public social media data for AI from 157 platforms, including Reddit and TikTok.",
+  "version": "1.0.0",
+  "websiteUrl": "https://prolevelmax.com/docs",
+  "icons": [
+    {
+      "src": "https://prolevelmax.com/favicon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://prolevelmax.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prolevelmax.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer API key from https://prolevelmax.com/dashboard (Bearer sk_procli_...). Omit to sign in with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/tophmeee/prolevelmax-mcp",
+    "source": "github"
+  }
+}

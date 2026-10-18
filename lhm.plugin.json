@@ -1,0 +1,84 @@
+{
+  "identifier": "prolevelmax",
+  "name": "ProLevelMax",
+  "version": "1.0.0",
+  "author": "ProLevelMax",
+  "authorUrl": "https://prolevelmax.com",
+  "category": "tools",
+  "cloudEndpoint": "https://prolevelmax.com/mcp",
+  "description": "Real-time public social media data for AI from 157 platforms, including Reddit, TikTok, Instagram, X, YouTube, Xiaohongshu and Douyin. Pay per use, with a quote before every run.",
+  "homepage": "https://prolevelmax.com",
+  "icon": "https://prolevelmax.com/favicon-192.png",
+  "tags": [
+    "social-media",
+    "reddit",
+    "tiktok",
+    "data",
+    "research"
+  ],
+  "localizations": [
+    {
+      "locale": "zh-CN",
+      "name": "ProLevelMax",
+      "description": "面向 AI 的实时公开社交媒体数据，覆盖 157 个平台，包括 Reddit、TikTok、Instagram、X、YouTube、小红书和抖音。按用量付费，每次运行前先报价。"
+    }
+  ],
+  "tools": [
+    {
+      "name": "procli_discover",
+      "description": "Find sources for a request, in English or Chinese",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_inspect",
+      "description": "Input fields, price and quote",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_run",
+      "description": "Run a source (charges your balance); returns a preview, the total, the cost, the balance and download links",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_runs_get",
+      "description": "Run status and results, in pages",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_balance",
+      "description": "Check the current balance",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_schedule_create",
+      "description": "Schedule a daily or weekly run (previews the cost; saved only after the user confirms)",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_schedule_list",
+      "description": "List schedules with their next and last runs",
+      "inputSchema": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "procli_schedule_delete",
+      "description": "Delete a schedule",
+      "inputSchema": {
+        "type": "object"
+      }
+    }
+  ]
+}
