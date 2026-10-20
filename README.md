@@ -1,6 +1,6 @@
 # ProLevelMax MCP
 
-Real-time public social media data for AI agents: a remote MCP server, an Agent Skill and a REST API covering 157 platforms.
+An MCP server for Reddit, TikTok, Instagram, X, YouTube, Xiaohongshu (RedNote) and Douyin data. ProLevelMax gives Claude, ChatGPT, Cursor and other AI agents real-time public posts, full comment threads, profiles and trends from 157 platforms, through a remote MCP server, an Agent Skill or a REST API. Pay per use, no subscription.
 
 ## What it is
 
